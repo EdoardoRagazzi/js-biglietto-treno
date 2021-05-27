@@ -17,6 +17,7 @@ console.log(sconto);
 
 var prezzofinale = prezzototale - sconto;
 
+
 console.log(prezzofinale);
 
 //----FUNCTION----BONUS-----(ToFixed)
