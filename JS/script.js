@@ -15,12 +15,12 @@ if (eta < 18) {
 }
 console.log(sconto);
 
-var prezzofinale = parseInt(prezzototale - sconto);
+var prezzofinale = prezzototale - sconto;
 
 console.log(prezzofinale);
 
-//----FUNCTION----
-document.getElementById("priceticket").innerHTML = prezzofinale;
+//----FUNCTION----BONUS-----(ToFixed)
+document.getElementById("priceticket").innerHTML = prezzofinale.toFixed(2);
 
 
 
